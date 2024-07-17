@@ -57,7 +57,7 @@ export default function Header (){
                     <div onClick={handleClick} data-cy= 'lang-button' className="font-Inter sm:text-base xs:text-xs font-bold dark:text-t-lilac text-purple">
                         {lang === 'eng' ? (<span className="cursor-pointer">TÜRKÇE</span>) :
                         (<span className="text-gray">SWITCH TO </span>)}
-                        {lang === 'eng' ? <span className="text-gray>">'YE GEÇ</span> : <span className="cursor-pointer">ENGLISH</span> }
+                        {lang === 'eng' ? <span className="text-gray">'YE GEÇ</span> : <span className="cursor-pointer">ENGLISH</span> }
                     </div>
                 </div>
             </div>
