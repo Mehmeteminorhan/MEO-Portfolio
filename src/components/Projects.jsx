@@ -37,7 +37,7 @@ export default function Projects () {
                     </div>
                     <div className="flex justify-between w-full">
                         <a className="prsite" href="https://github.com/Mehmeteminorhan/fsweb-s7-challenge-pizza">Github</a>
-                        <a className="prsite" href="/">{info.projects.site}</a>
+                        <a className="prsite" href="https://pizza-website-eight-nu.vercel.app/">{info.projects.site}</a>
                     </div>
                 </div>
                 <div className="flex flex-col items-start sm:w-[30%] gap-4">
@@ -51,7 +51,7 @@ export default function Projects () {
                     </div>
                     <div className="flex justify-between w-full">
                         <a className="prsite" href="https://github.com/Mehmeteminorhan/Film_archive_project">Github</a>
-                        <a className="prsite" href="/">{info.projects.site}</a>
+                        <a className="prsite" href="https://film-archive.vercel.app/">{info.projects.site}</a>
                     </div>
                 </div>
             </div>
