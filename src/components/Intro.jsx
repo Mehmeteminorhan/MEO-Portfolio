@@ -2,15 +2,13 @@ import githubLight from "../assets/github.svg";
 import LinkedInLight from "../assets/LinkedIn.svg";
 import githubDark from "../assets/githubDark.svg";
 import LinkedInDark from "../assets/LinkedInDark.svg";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import MEO from '../assets/MEO.jpg'
 
 export default function Intro() {
     
 
-    const dispatch = useDispatch();
     const theme = useSelector(myStore => myStore.mode);
-    const lang = useSelector(myStore => myStore.lang);
     const info = useSelector(myStore => myStore.info)
 
     return (
