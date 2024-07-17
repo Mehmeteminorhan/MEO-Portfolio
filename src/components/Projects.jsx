@@ -1,5 +1,7 @@
 import { useSelector } from "react-redux"
-
+import miRNA from '../assets/miRNA.jpg'
+import pizza from '../assets/pizza.jpg'
+import film from '../assets/films.jpg'
 
 export default function Projects () {
 
@@ -11,7 +13,7 @@ export default function Projects () {
             <h2 className="başlık">{info.projects.head}</h2> 
             <div className="w-full flex sm:flex-row xs:flex-col justify-between sm:gap-4 xs:gap-20"> 
                 <div className="flex flex-col items-start sm:w-[30%] gap-4">
-                    <img src={"/proje2.png"} className="md:w-full md:h-80 sm:h-40 "/>
+                    <img src={miRNA} className="md:w-full md:h-80 sm:h-40 "/>
                     <h3 className="altbaşlık">{info.projects.p1}</h3> 
                     <p className="prdes">{info.projects.c1}</p>
                     <div className="flex lg:gap-4 md:gap-2 xs:gap-1">
@@ -25,7 +27,7 @@ export default function Projects () {
                     </div>
                 </div>
                 <div className="flex flex-col items-start sm:w-[30%] gap-4 ">
-                    <img src={"/pizza.png"} className="md:w-full md:h-80 sm:h-40" />
+                    <img src={pizza} className="md:w-full md:h-80 sm:h-40" />
                     <h3 className="altbaşlık">{info.projects.p2}</h3> 
                     <p className="prdes">{info.projects.c2}</p>
                     <div className="flex lg:gap-4 md:gap-2 xs:gap-1">
@@ -39,7 +41,7 @@ export default function Projects () {
                     </div>
                 </div>
                 <div className="flex flex-col items-start sm:w-[30%] gap-4">
-                    <img src={"/proje3.png"} className="md:w-full md:h-80 sm:h-40"/>
+                    <img src={film} className="md:w-full md:h-80 sm:h-40"/>
                     <h3 className="altbaşlık">{info.projects.p3}</h3>
                     <p className="prdes">{info.projects.c3}</p>
                     <div className="flex lg:gap-4 md:gap-2 xs:gap-1">
